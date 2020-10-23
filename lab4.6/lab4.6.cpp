@@ -21,7 +21,7 @@ int main()
             b = 1 + cos(s * 1.0);
             n++;
         }
-        p *= a / b * 1.0;
+        p *= a / (b * 1.0);
         n++;
     }
     cout << "p=" << p << endl;
@@ -30,6 +30,8 @@ int main()
     n = 1;
     do
     {
+        s = 0;
+        n = 1;
         do 
         {
             s = pow(n, 2.);
