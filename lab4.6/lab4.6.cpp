@@ -14,8 +14,6 @@ int main()
     {   
         s = 0;
         k = 1;
-        a = 0;
-        b = 0;
         while (k <= 20)
         {
             s = pow(k, 2.);
@@ -34,8 +32,6 @@ int main()
     {
         s = 0;
         k = 1; 
-        a = 0;
-        b = 0;
         do 
         {
             s = pow(k, 2.);
@@ -53,8 +49,6 @@ int main()
     for (n = 1; n <= 20; n++)
     {
         s = 0;
-        a = 0;
-        b = 0;
         for (k = 1; k <= 20; k++)
         {
             s = pow(k, 2.);
@@ -69,8 +63,6 @@ int main()
     for (n = 20; n >= 1; n--)
     {
         s = 0;
-        a = 0;
-        b = 0;
         for (k = 20; k >= 1; k--)
         {
             s = pow(k, 2.);
